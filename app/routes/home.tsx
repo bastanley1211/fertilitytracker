@@ -1,13 +1,13 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import BBTTracker from "./bbt-tracker";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Fertility Tracker" },
+    { name: "description", content: "Welcome to Fertility Tracker!" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <BBTTracker/>;
 }
