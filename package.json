@@ -1,6 +1,7 @@
 {
   "name": "bbt-app",
-  "private": true,
+  "private": false,
+  "homepage": "https://bastanley1211.github.io/fertilitytracker/",
   "type": "module",
   "scripts": {
     "build": "react-router build",
